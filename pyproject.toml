@@ -1,0 +1,21 @@
+[project]
+name = "job-finder"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ghulam-Ahmed-1357", email = "ghulamahmedmbs@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai-agents>=0.2.3",
+    "pydantic>=2.11.7",
+]
+
+[project.scripts]
+job-finder = "job_finder:main"
+main = "job_finder.main:start"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
