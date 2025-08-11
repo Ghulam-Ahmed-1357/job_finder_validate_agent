@@ -5,7 +5,7 @@ import asyncio
 from pydantic import BaseModel
 
 GEMINI_MODEL ="gemini-2.0-flash"
-GEMINI_API_KEY = "AIzaSyCHgy-9liuIF2KaC_7UqkhQ03CBAFBtEAw"
+GEMINI_API_KEY = ""
 BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 
 enable_verbose_stdout_logging()
